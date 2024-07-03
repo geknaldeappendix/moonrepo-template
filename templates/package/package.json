@@ -1,0 +1,18 @@
+{
+  "name": "@playground/{{ name }}",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./*": {
+      "require": "./lib/*.js",
+      "import": "./lib/*.js",
+      "types": "./lib/*.d.ts"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
