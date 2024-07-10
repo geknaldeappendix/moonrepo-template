@@ -7,9 +7,8 @@
   "license": "ISC",
   "exports": {
     "./*": {
-      "require": "./lib/*.js",
-      "import": "./lib/*.js",
-      "types": "./lib/*.d.ts"
+      "import": "./src/*.ts",
+      "require": "./src/*.ts"
     }
   },
   "devDependencies": {

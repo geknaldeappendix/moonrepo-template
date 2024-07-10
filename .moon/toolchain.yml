@@ -42,7 +42,7 @@ typescript:
 
   includeProjectReferenceSources: true
 
-  # routeOutDirToCache: true
+  routeOutDirToCache: true
 
   syncProjectReferences: true
 
